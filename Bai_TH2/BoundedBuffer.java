@@ -3,7 +3,7 @@ package TH2;
 
 
 public class BoundedBuffer {
-    final int size = 5;
+    final int size = 200;
     int[] buffer = new int[size];
     int inBuf = 0;
     int outBuf = 0;
